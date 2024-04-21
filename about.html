@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .navbar {
+            border-bottom: 4px solid #17a2b8;
+        }
+        .jumbotron {
+            background-color: #17a2b8;
+            color: #ffffff;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+        .feature {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature h2 {
+            color: #17a2b8;
+            margin-bottom: 1.5rem;
+        }
+        .feature p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .contact-form {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin-top: 2rem;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            color: #17a2b8;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Welcome to my Website !!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">About Us</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac nisi nec velit bibendum vehicula.</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-md-6 feature">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin vehicula vehicula mi.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-md-6 feature">
+                <h2>Our Team</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Proin vehicula vehicula mi.</p>
+                <a href="#" class="btn btn-primary">Meet the Team</a>
+            </div>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIuMcTvWa_tAWteqrxiA0A_MvhQwEwUS9ra2jJNyghlLI0RRGtDd5ThPUeCblnvcMN4Jw&usqp=CAU" class="img-fluid rounded mb-3" alt="Image 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcUKB1MhoFGkxnWcwZ5-ADS01j1CDFUCPvGuZe04M-M-U-guYSNjxxp-v5SuELLnggtE&usqp=CAU" class="img-fluid rounded mb-3" alt="Image 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwt79z-6M0-EU1Tst4xLOSGU_OXpLZD1VRkVlFFAIWQPWxZnsVpXqWP8E8O-OfrTgPAns&usqp=CAU" class="img-fluid rounded mb-3" alt="Image 3">
+            </div>
+        </div>
+
+        <!-- Additional Visual Features -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Additional Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                <button type="button" class="btn btn-info">Info Button</button>
+                <button type="button" class="btn btn-warning">Warning Button</button>
+                <span class="badge badge-primary">New</span>
+                <span class="badge badge-danger">Hot</span>
+                <hr>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John</td>
+                            <td>Doe</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jane</td>
+                            <td>Smith</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>Responsive Design</h2>
+                <p>The layout of this page adjusts seamlessly on smaller devices thanks to Bootstrap's responsive grid system.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
